@@ -1,0 +1,90 @@
+﻿
+@**Definindo a classe de modelo da página *@
+@model SistemaContas.Presentation.Models.Account.RegisterViewModel
+
+<div class="container">
+    <div class="row justify-content-center mt-3">
+        <div class="col-md-5">
+            <div class="card">
+                <div class="card-header">
+                    <div class="text-center">
+                        <h4 class="mt-2">Criar conta de usuário</h4>
+                        <p>Preencha os campos para cadastrar sua conta.</p>
+                    </div>
+                </div>
+                <div class="card-body">
+
+                    @using(Html.BeginForm())
+                    {
+
+                        <div class="form-group mb-2">
+                            <label for="nome">Nome do usuário:</label>
+                            @Html.TextBoxFor(model => model.Nome, 
+                                new {
+                                    @class = "form-control",
+                                    @planceholder= "Digite seu nome"
+                                } )
+                            @**<input type="text" class="form-control" id="nome" placeholder="Digite seu nome"> como estava*@
+                            <span class="text-danger">
+                                @Html.ValidationMessageFor(model => model.Nome)
+                            </span>
+
+                        </div>
+
+                        <div class="form-group mb-2">
+                            <label for="email">E-mail:</label>
+
+                             @Html.TextBoxFor(model => model.Email, 
+                                new {
+                                    @class = "form-control",
+                                    @planceholder= "Digite seu e-mail"
+                                } )
+                            <span class="text-danger">
+                                @Html.ValidationMessageFor(model => model.Email)
+                            </span>
+
+                        </div>
+
+                      <div class="form-group mb-2">
+                            <label for="Senha">Senha:</label>
+                            @Html.PasswordFor(model => model.Senha,
+                                new {
+                                    @class = "form-control",
+                                    @placeholder="Digite sua senha"
+                                })
+                            <span class="text-danger">
+                                @Html.ValidationMessageFor(model => model.Senha)
+                            </span>
+                        </div>
+
+
+                         <div class="form-group mb-2">
+                            <label for="SenhaConfirmacao">Confirme sua senha:</label>
+                            @Html.PasswordFor(model => model.SenhaConfirmacao,
+                                new {
+                                    @class = "form-control",
+                                    @placeholder="Confirme sua senha"
+                                })
+                            <span class="text-danger">
+                                @Html.ValidationMessageFor(model => model.SenhaConfirmacao)
+                            </span>
+                        </div>
+
+
+                        <div class="d-grid mb-2">
+                            <button type="submit" class="btn btn-primary">Realizar Cadastro</button>
+                        </div>
+
+                        <div class="d-grid mb-2">
+                            <a href="/Account/Login" class="btn btn-light">
+                                Já possui conta? <strong>Acesse aqui!</strong>
+                            </a>
+                        </div>
+
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,66 @@
+﻿<html>
+    <head>
+        <title>Sistema Contas</title>
+        <!--para que seja responsivo-->
+        <meta name="viewport" content="width=device-width" />
+        
+        <!-- referencia para arquivos CSS-->
+        <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Sistema Contas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/Account/Login">
+                                Autenticar
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Account/Register">
+                                Criar Conta
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Account/PasswordRecover">
+                                Recuperar Senha
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    @if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Sucesso!</strong> @TempData["MensagemSucesso"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        
+    }else if (TempData["MensagemErro"] != null )
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Erro!</strong> @TempData["MensagemErro"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+    }
+
+        <!-- marcação ->  -->
+        @*Define o local onde será inserido o conteúdo das demais páginas*@
+        @RenderBody()
+
+        <!--referenias para arquivos JS sempre no final
+        do body para evitar demora no carregamento-->
+        <script src="/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>

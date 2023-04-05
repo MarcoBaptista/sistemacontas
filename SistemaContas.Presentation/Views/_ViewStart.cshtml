@@ -1,0 +1,20 @@
+﻿@{
+    @*Layout = "~/Views/Shared/_AccountLayout.cshtml";*@
+    @*Para casos em que outras paginas terão layouts diferentes*@
+
+    //captura o nome do controlador que esta sendo acessado
+    var controllerName = this.ViewContext.RouteData.Values["controller"].ToString();
+
+    //verificando qual controlador está sendo acessando e definir o layout que pag vai herdar
+    switch (controllerName)
+    {
+        case "Account":
+            Layout = "~/Views/Shared/_AccountLayout.cshtml";
+            break;
+        case "Home":
+            Layout = "~/Views/Shared/_MainLayout.cshtml";
+            break;
+    }  
+
+
+}
