@@ -1,0 +1,57 @@
+﻿@using SistemaContas.Data.Entities
+@{
+    //capturar a lista de categorias
+    var categorias = ViewBag.Categorias as List<Categoria>;
+}
+
+<div class="card m-4">
+    <div class="card-body">
+        <h5>Consulta de categorias</h5>
+        <p>Listagem de categorias cadastradas.</p>
+        <hr/>
+
+        <div class="table-responsive">
+            <table class="table table-sm table-stripped table-hover">
+                <thead>
+                    <tr>
+                        <th>Nome da categoria</th>
+                        <th>Tipo</th>
+                        <th width="200">Operações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in categorias)
+                    {
+                        <tr>
+                            <td>@item.Nome</td>
+                            <td>
+                                @if (((int)item.Tipo) == 1)
+                                {
+                                    <span class="badge bg-success">RECEITA</span>
+                                }
+                                else if (((int)item.Tipo) == 2)
+                                {
+                                    <span class="badge bg-danger">DESPESA</span>
+                                }
+                            </td>
+                            <td>
+                                <a href="/Categorias/Edicao/@item.IdCategoria" 
+                                   class="btn btn-outline-primary btn-sm">
+                                    Editar
+                                </a>
+                                <a href="/Categorias/Edicao/@item.IdCategoria/1" 
+                                   class="btn btn-outline-danger btn-sm">
+                                    Excluir
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+
+

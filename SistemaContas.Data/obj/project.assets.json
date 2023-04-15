@@ -3469,11 +3469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\Aula07\\SistemaContas\\SistemaContas.Data\\SistemaContas.Data.csproj",
+      "projectUniqueName": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\sistemacontas\\SistemaContas.Data\\SistemaContas.Data.csproj",
       "projectName": "SistemaContas.Data",
-      "projectPath": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\Aula07\\SistemaContas\\SistemaContas.Data\\SistemaContas.Data.csproj",
+      "projectPath": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\sistemacontas\\SistemaContas.Data\\SistemaContas.Data.csproj",
       "packagesPath": "C:\\Users\\MGBap\\.nuget\\packages\\",
-      "outputPath": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\Aula07\\SistemaContas\\SistemaContas.Data\\obj\\",
+      "outputPath": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\sistemacontas\\SistemaContas.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -3309,11 +3309,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\Aula07\\SistemaContas\\SistemaContas.Presentation\\SistemaContas.Presentation.csproj",
+      "projectUniqueName": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\sistemacontas\\SistemaContas.Presentation\\SistemaContas.Presentation.csproj",
       "projectName": "SistemaContas.Presentation",
-      "projectPath": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\Aula07\\SistemaContas\\SistemaContas.Presentation\\SistemaContas.Presentation.csproj",
+      "projectPath": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\sistemacontas\\SistemaContas.Presentation\\SistemaContas.Presentation.csproj",
       "packagesPath": "C:\\Users\\MGBap\\.nuget\\packages\\",
-      "outputPath": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\Aula07\\SistemaContas\\SistemaContas.Presentation\\obj\\",
+      "outputPath": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\sistemacontas\\SistemaContas.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3334,8 +3334,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\Aula07\\SistemaContas\\SistemaContas.Data\\SistemaContas.Data.csproj": {
-              "projectPath": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\Aula07\\SistemaContas\\SistemaContas.Data\\SistemaContas.Data.csproj"
+            "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\sistemacontas\\SistemaContas.Data\\SistemaContas.Data.csproj": {
+              "projectPath": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\sistemacontas\\SistemaContas.Data\\SistemaContas.Data.csproj"
             }
           }
         }

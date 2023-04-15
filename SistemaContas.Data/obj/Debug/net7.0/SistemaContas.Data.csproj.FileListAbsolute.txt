@@ -12,3 +12,17 @@ D:\Desenvolvimento\Cursos\COTI\C#\Aula07\SistemaContas\SistemaContas.Data\obj\De
 D:\Desenvolvimento\Cursos\COTI\C#\Aula07\SistemaContas\SistemaContas.Data\obj\Debug\net7.0\ref\SistemaContas.Data.dll
 D:\Desenvolvimento\Cursos\COTI\C#\Aula07\SistemaContas\SistemaContas.Data\bin\Debug\net7.0\SistemaContas.Data.runtimeconfig.json
 D:\Desenvolvimento\Cursos\COTI\C#\Aula07\SistemaContas\SistemaContas.Data\obj\Debug\net7.0\SistemaContas.Data.genruntimeconfig.cache
+D:\Desenvolvimento\Cursos\COTI\C#\sistemacontas\SistemaContas.Data\bin\Debug\net7.0\SistemaContas.Data.deps.json
+D:\Desenvolvimento\Cursos\COTI\C#\sistemacontas\SistemaContas.Data\bin\Debug\net7.0\SistemaContas.Data.runtimeconfig.json
+D:\Desenvolvimento\Cursos\COTI\C#\sistemacontas\SistemaContas.Data\bin\Debug\net7.0\SistemaContas.Data.dll
+D:\Desenvolvimento\Cursos\COTI\C#\sistemacontas\SistemaContas.Data\bin\Debug\net7.0\SistemaContas.Data.pdb
+D:\Desenvolvimento\Cursos\COTI\C#\sistemacontas\SistemaContas.Data\obj\Debug\net7.0\SistemaContas.Data.csproj.AssemblyReference.cache
+D:\Desenvolvimento\Cursos\COTI\C#\sistemacontas\SistemaContas.Data\obj\Debug\net7.0\SistemaContas.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenvolvimento\Cursos\COTI\C#\sistemacontas\SistemaContas.Data\obj\Debug\net7.0\SistemaContas.Data.AssemblyInfoInputs.cache
+D:\Desenvolvimento\Cursos\COTI\C#\sistemacontas\SistemaContas.Data\obj\Debug\net7.0\SistemaContas.Data.AssemblyInfo.cs
+D:\Desenvolvimento\Cursos\COTI\C#\sistemacontas\SistemaContas.Data\obj\Debug\net7.0\SistemaContas.Data.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Cursos\COTI\C#\sistemacontas\SistemaContas.Data\obj\Debug\net7.0\SistemaContas.Data.dll
+D:\Desenvolvimento\Cursos\COTI\C#\sistemacontas\SistemaContas.Data\obj\Debug\net7.0\refint\SistemaContas.Data.dll
+D:\Desenvolvimento\Cursos\COTI\C#\sistemacontas\SistemaContas.Data\obj\Debug\net7.0\SistemaContas.Data.pdb
+D:\Desenvolvimento\Cursos\COTI\C#\sistemacontas\SistemaContas.Data\obj\Debug\net7.0\SistemaContas.Data.genruntimeconfig.cache
+D:\Desenvolvimento\Cursos\COTI\C#\sistemacontas\SistemaContas.Data\obj\Debug\net7.0\ref\SistemaContas.Data.dll

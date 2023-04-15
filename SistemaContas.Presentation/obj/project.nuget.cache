@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lV7jNaT/mQMdGmpf7OJ1UfHMA0w+UInUrA7fnQQtjKVuMqRq0IZpYdL9mq9uAO5DssnJudEPNPgSuQb93LBqlw==",
+  "dgSpecHash": "8h5cjMr8f6GsHsh2w0HtBlHCTJN0yJNV/gB6ykdd5lRU+otDRYSedV5zhEmY4m1QfRPFzt22jbI5675XFtuBAA==",
   "success": true,
-  "projectFilePath": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\Aula07\\SistemaContas\\SistemaContas.Presentation\\SistemaContas.Presentation.csproj",
+  "projectFilePath": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\sistemacontas\\SistemaContas.Presentation\\SistemaContas.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MGBap\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\MGBap\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

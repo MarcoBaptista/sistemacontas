@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 using SistemaContas.Data.Entities;
 using SistemaContas.Data.Helpers;
 using SistemaContas.Presentation.Models.Account;
+using SistemaContas.Presentation.Models.Categorias;
 
 namespace SistemaContas.Presentation.Mappings
 {
@@ -25,6 +26,14 @@ namespace SistemaContas.Presentation.Mappings
                     entity.DataCriacao = DateTime.Now;
                     entity.Ativo = 1;
                 });
+
+
+            CreateMap<CategoriaCadasroViewModel, Categoria>()
+               .AfterMap((model, entity) =>
+               {
+                   entity.IdCategoria = Guid.NewGuid();
+                   
+               });
 
         }
     }

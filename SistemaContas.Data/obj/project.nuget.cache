@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "53VINQTTwZPvllS6GaOHLQjDLfMdQxplqqnP5EAEdbx2TEj4LnWV1xVlLexrJPYRBv4Lw+fRa/WHLa2sEp7bZg==",
+  "dgSpecHash": "XCPeCpBlPJKA2MZAGd1ft4sJITWbY9hvQWU+Jjo1n8L8IwEHDPFPqGfBuvjeJ7J6vd+27NH9vJ3Ojq6nsK8ZCg==",
   "success": true,
-  "projectFilePath": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\Aula07\\SistemaContas\\SistemaContas.Data\\SistemaContas.Data.csproj",
+  "projectFilePath": "D:\\Desenvolvimento\\Cursos\\COTI\\C#\\sistemacontas\\SistemaContas.Data\\SistemaContas.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MGBap\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\MGBap\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
