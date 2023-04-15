@@ -143,7 +143,7 @@ namespace SistemaContas.Presentation.Controllers
 
             }
             ViewBag.TiposCategoria = new SelectList(Enum.GetValues(typeof(TipoCategoria)));
-            return View();
+            return View(model);
         }
 
         private AuthenticationModel UsuarioAutenticado

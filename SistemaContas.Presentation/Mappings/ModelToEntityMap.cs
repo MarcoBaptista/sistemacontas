@@ -35,6 +35,9 @@ namespace SistemaContas.Presentation.Mappings
                    
                });
 
+            CreateMap<CategoriaEdicaoViewModel, Categoria>();
+                           
+
         }
     }
 }
